@@ -1,7 +1,7 @@
 # BERT-based hashtag recommendation in social media with real-time trend shift detection
 
 ## How it works
-**H-ADAPTS** *(Hashtag recommendAtion by Detecting and adAPting to Trend Shifts)* is a BERT-based hashtag recommendation methodology designed to operate in dynamic contexts characterized by the continuous evolution of trends and hashtags over time.
+**H-ADAPTS** *(Hashtag recommendAtion by Detecting and adAPting to Trend Shifts)* is a BERT-based hashtag recommendation methodology designed to operate in dynamic contexts characterized by the continuous evolution of social trends and hashtags over time.
 Specifically, H-ADAPTS leverages Apache Storm to detect shifts in the main trends and topics underlying social media conversation, and an ad-hoc re-training strategy to adapt the model to those shifts rapidly and effectively.
 
 The methodology performs the following steps:
