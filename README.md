@@ -34,9 +34,9 @@ $ mkdir datasets
 
 ## Dataset Format
 The dataset must follow the standard format of the [read_json](https://pandas.pydata.org/pandas-docs/version/1.1.3/reference/api/pandas.read_json.html) function of the Pandas library (orient='columns'), with the following columns:
-- date (long): unix timestamp representing the date of each tweet.
-- text (string): text of the tweet.
-- is_retweet (bool): flag that is True only for retweets.
+- *date (long)*: unix timestamp representing the date of each tweet.
+- *text (string)*: text of the tweet.
+- *is_retweet (bool)*: flag that is True only for retweets.
 
 ## How to run
 Place the dataset to be processed in the ```datasets/``` directory and modify ```src/main/resources/constants.py``` accordingly:
