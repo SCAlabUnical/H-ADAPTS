@@ -10,7 +10,7 @@ The methodology performs the following steps:
 - *Model adaptation*: upon detecting a trend shift, the current recommendation model is asynchronously updated, re-aligning it with the current trends and topics.
 - *Hashtag recommendation*: the current recommendation model is used for recommending a set of hashtags for a query post provided by the user.
 
-> H-ADAPTS effectively addresses the high dynamicity of social media conversation by identifying changes in the main trending hashtags and topics, as well as semantic shifts in the meaning of existing hashtags, enabling an accurate recommendation of hashtags in real-life scenarios.
+> **H-ADAPTS effectively addresses the high dynamicity of social media conversation by identifying changes in the main trending hashtags and topics, as well as semantic shifts in the meaning of existing hashtags, enabling an accurate recommendation of hashtags in real-life scenarios.**
 
 ## Prerequisites
 - Java 8
