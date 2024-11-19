@@ -14,12 +14,14 @@ The methodology performs the following steps:
 - efficient adaptation via transfer learning and progressive fine-tuning.
 - scalable and fault-tolerant analysis of unbounded data streams with Apache Storm.
 
-## Prerequisites
+## Get it started
+
+### ***Prerequisites***
 - Java 8
 - Python 3.7
 - Apache Maven
 
-## Installation
+### ***Installation***
 Install Python requirements:
 ```bash
 $ pip install -r requirements.txt
@@ -34,13 +36,13 @@ Create the datasets directory:
 $ mkdir datasets
 ```
 
-## Dataset Format
+### ***Dataset Format***
 The dataset must follow the standard format of the [read_json](https://pandas.pydata.org/pandas-docs/version/1.1.3/reference/api/pandas.read_json.html) function of the Pandas library (orient='columns'), with the following columns:
 - **date (long)**: unix timestamp representing the date of each tweet.
 - **text (string)**: text of the tweet.
 - **is_retweet (bool)**: flag that is True only for retweets.
 
-## How to run
+### ***How to run***
 Place the dataset to be processed in the ```datasets/``` directory and modify ```src/main/resources/constants.py``` accordingly:
 - The **DATASET_NAME** parameter with the dataset file name.
 - The **SPLIT_DATE** parameter with the timestamp for splitting the dataset into static and real-time portions.
@@ -73,7 +75,7 @@ The execution results are contained in the following files (located in the ```re
 - **evaluation_results.txt**: contains the expansion results.
 - **log.txt**: contains the execution log.
 
-# System configuration
+### ***Configuration***
 The configuration parameters are all located in the file ```src/main/resources/constants.py```. Most important ones include:
 - **DATASET_NAME**: the name of the dataset to be processed (in the ```datasets/``` directory).
 - **THRESHOLD**: the occurrence threshold that a hashtag must exceed to be considered trending.
