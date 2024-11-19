@@ -9,7 +9,7 @@ The methodology performs the following steps:
 - **Model adaptation**: upon detecting a trend shift, the current recommendation model is asynchronously updated, re-aligning it with the current trends and topics.
 - **Hashtag recommendation**: the current recommendation model is used to recommend a set of hashtags for a query post provided by the user.
 
-Key contributions:
+### ***Key contributions***
 - real-time automatic detection of trend shifts.
 - efficient adaptation via transfer learning and progressive fine-tuning.
 - scalable and fault-tolerant analysis of unbounded data streams with Apache Storm.
